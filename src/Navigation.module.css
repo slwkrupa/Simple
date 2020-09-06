@@ -1,0 +1,67 @@
+.Container{
+    height: 11em; 
+}
+
+.Nav{
+    background-image: url("./images/navigation_bg.png");
+    height: 6em;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.Logo{
+    height: 11em;
+    -webkit-box-shadow: 5px 4px 8px -1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 5px 4px 8px -1px rgba(0,0,0,0.2);
+    box-shadow: 5px 4px 8px -1px rgba(0,0,0,0.2);
+
+    grid-column: 4/6;
+    grid-row: 1/4;
+}
+
+.List{
+    font-size: 1.2rem;
+    list-style: none;
+    color: white;
+    
+    grid-column: 6/10;
+    grid-row: 2/3;
+    
+    position: relative;
+    right: 3em;
+    top: 1em;
+}
+
+.ListItem{
+    display: inline;
+    padding-right: 2em;
+    cursor: pointer;
+}
+
+.Input{
+    background: #7695a3;
+    border: none;
+
+    grid-column: 11/12;
+    grid-row: 3/4;
+
+    position: relative;
+    left: 4em;
+    bottom: .25em;
+}
+
+.Searching{
+    border: none;
+    background: none; 
+    width: 2em;
+    background-image: url("./images/search.png");
+    background-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    
+    grid-column: 12/13;
+    grid-row: 3/4;
+}

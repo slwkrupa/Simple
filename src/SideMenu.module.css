@@ -1,0 +1,47 @@
+.ActiveMenuButton{
+    height: 1.5em;
+    border: none;
+    background: none; 
+    background-image: url("./images/sidemenuone.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 33.5em;
+    left: 12em;
+    cursor: pointer;
+}
+
+.ShowMenu{
+    height: 88.9vh;
+    position: relative;
+    bottom: 2.4em;
+    -webkit-box-shadow: 5px 4px 8px -1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 5px 4px 8px -1px rgba(0,0,0,0.2);
+    box-shadow: 5px 4px 8px -1px rgba(0,0,0,0.2);
+}
+
+.InactiveMenuButton{
+    height: 1.5em;
+    border: none;
+    background: none; 
+    background-image: url("./images/sidemenutwo.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 33.5em;
+    left: 1.5em;
+    cursor: pointer;
+}
+
+.HideMenu{
+    height: 88.9vh;
+    width: 30%;
+    -webkit-box-shadow: 5px 4px 8px -1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 5px 4px 8px -1px rgba(0,0,0,0.2);
+    box-shadow: 5px 4px 8px -1px rgba(0,0,0,0.2);
+}
+
+.HideMenu p {
+    position: absolute;
+    top: 30em;
+    left: .5em;
+    cursor: default;
+}

@@ -1,0 +1,32 @@
+.ListMenu{
+    margin-top: 2em;
+    padding-top: 2em;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.ListMenu > li{
+    padding-top: 1em;
+    cursor: pointer;
+}
+
+.dotted{
+    margin-top: 1em;
+    height: .5em;
+    width: 65%;
+    background-image: url("./images/pattern.png");
+    background-repeat: repeat-x;
+    cursor: default;
+}
+
+.Facebook{
+    height: 2em;
+    background-image: url("./images/facebook.png");
+    background-repeat: no-repeat;
+}
+
+.Linkedin{
+    height: 2em;
+    background-image: url("./images/linkedin.png");
+    background-repeat: no-repeat;
+}

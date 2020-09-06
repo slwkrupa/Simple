@@ -1,0 +1,13 @@
+:root{
+    box-sizing: border-box;
+    --fontstyle: 'Kumbh Sans', 'Arial';
+}
+
+*,::before,::after{
+    box-sizing: inherit;
+    margin: 0;
+}
+body{
+    /* background: #ccc; */
+    font-family: var(--fontstyle);
+}
